@@ -1,0 +1,10 @@
+SSH into the network hit ls and a qr image
+
+Hint:If you don't have access to a phone, you can also use zbar-tools to convert an image to text
+
+I tried to use: scp  ctf-player@atlas.picoctf.net:/home/ctf-player/drop-in/flag.png /home/caroline/Downloads
+ Which would download the image to my local file but scp is blocked
+
+I also tried sftp then get filename but sftp is blocked as well
+
+I used zbarimg and got picoCTF{p33k_@_b00_3f7cf1ae}
