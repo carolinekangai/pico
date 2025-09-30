@@ -1,0 +1,17 @@
+Downloaded a jpg image 
+
+In it was a cat and the background a laptop screen with a terminal open showing scala programming language
+
+The language got no hits so i looked at the hints again:Look at the details of the file
+
+This must be about meta data so i used exiftool to extract
+
+International Press Telecommunications Council (IPTC) focuses on content of images together with their status in regard to ownership and licenses and rights
+
+Exif data or meta data is concerned with the technical side of the picture eg camera used setting etc
+
+Exif data is automatically added (and can be removed) but IPTC data is manually added
+
+The IPTC data and license data are checksums 
+
+The license data was passes through cyberchef from base64 and brought : picoCTF{the_m3tadata_1s_modified}
