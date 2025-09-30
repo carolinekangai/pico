@@ -1,0 +1,14 @@
+Downloaded a pic of the garden
+
+Ran exiftool but it is corrupted and contained to metadata
+
+Ran binwalk -E on terminal and it failed due to no python type inference
+
+Hint: what is a hex editor
+
+Opened hexit and ran the garden pic in it
+
+At the end was my flag
+
+picoCTF{more_than_m33ts_the_3y3eBdBd2cc}
+
