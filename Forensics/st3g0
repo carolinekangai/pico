@@ -1,0 +1,7 @@
+Downloaded an image and i am using steganography to analyze it
+
+I read online to use zsteg and tried installing it on command line but failed
+
+went to github and found gem install zsteg
+
+i then did zsteg pico.fla.png and got my flag picoCTF{7h3r3_15_n0_5p00n_a1062667}$t3g0
